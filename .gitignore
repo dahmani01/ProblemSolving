@@ -1,0 +1,38 @@
+# Rider project settings
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+out/
+
+# Rider logs
+.idea/.idea.*
+.idea/workspace.xml
+.idea/tasks.xml
+
+# Dotnet-specific files
+*.dll
+*.exe
+*.app
+*.pdb
+*.cache
+*.log
+*.vspscc
+*.vssscc
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
