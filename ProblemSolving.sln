@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NormalProblem", "NormalProb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamOlympiad", "TeamOlympiad\TeamOlympiad.csproj", "{0058F984-2A94-4941-A1CF-D2662BF07714}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpfulMaths", "HelpfulMaths\HelpfulMaths.csproj", "{CFBD8C7A-8211-4CFF-B8A3-ABD90DD426C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{0058F984-2A94-4941-A1CF-D2662BF07714}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0058F984-2A94-4941-A1CF-D2662BF07714}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0058F984-2A94-4941-A1CF-D2662BF07714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFBD8C7A-8211-4CFF-B8A3-ABD90DD426C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFBD8C7A-8211-4CFF-B8A3-ABD90DD426C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFBD8C7A-8211-4CFF-B8A3-ABD90DD426C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFBD8C7A-8211-4CFF-B8A3-ABD90DD426C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
