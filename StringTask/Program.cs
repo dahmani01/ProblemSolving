@@ -1,11 +1,15 @@
-﻿string input = Console.ReadLine().ToLower();
-char[] vowels = ['a', 'o', 'y', 'e', 'u', 'i'];
+﻿using System.Text;
 
-List<string> word = new List<string>();
+string input = Console.ReadLine().ToLower();
+HashSet<char> vowels = new HashSet<char> { 'a', 'o', 'y', 'e', 'u', 'i' };
+StringBuilder sb = new StringBuilder();
+
 foreach (var letter in input)
 {
     if (!vowels.Contains(letter))
-        word.Add($".{letter}");
+    {
+        sb.Append('.').Append(letter);
+    }
 }
 
-Console.WriteLine(string.Join("", word));
+Console.WriteLine(sb.ToString());
