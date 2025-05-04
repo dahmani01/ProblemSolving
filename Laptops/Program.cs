@@ -3,27 +3,23 @@ List<Laptop> laptops = new List<Laptop>();
 
 for (var i = 0; i < n; i++)
 {
-    int[] input = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
-    int price = input[0];
-    int quality = input[1];
-    var laptop = new Laptop(price, quality);
-    laptops.Add(laptop);
+    string[] input = Console.ReadLine().Split(" ");
+    int price = int.Parse(input[0]);
+    int quality = int.Parse(input[1]);
+    laptops.Add(new Laptop(price, quality));
 } 
 
-var sortedLaptops = laptops.OrderBy(laptop => laptop.Price).ToList();
-var index = 1;
-var MaxQuality = sortedLaptops[0].Quality;
-while (index < sortedLaptops.Count)
+laptops.Sort((x,y)=> x.Price.CompareTo(y.Price));
+var maxQuality = laptops[0].Quality;
+for( int i = 1; i < laptops.Count; i++ )
 {
-    if (sortedLaptops[index].Quality > MaxQuality)
-        MaxQuality = sortedLaptops[index].Quality;
+    if (laptops[i].Quality > maxQuality)
+        maxQuality = laptops[i].Quality;
     else
     {
         Console.WriteLine("Happy Alex");
         return;
     }
-
-    index++;
 }
 
 Console.WriteLine("Poor Alex");
