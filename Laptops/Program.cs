@@ -1,5 +1,5 @@
 ﻿int n = int.Parse(Console.ReadLine());
-List<Laptop> laptops = new List<Laptop>();  
+List<Laptop> laptops = new List<Laptop>(n);  
 
 for (var i = 0; i < n; i++)
 {
@@ -13,13 +13,12 @@ laptops.Sort((x,y)=> x.Price.CompareTo(y.Price));
 var maxQuality = laptops[0].Quality;
 for( int i = 1; i < laptops.Count; i++ )
 {
-    if (laptops[i].Quality > maxQuality)
-        maxQuality = laptops[i].Quality;
-    else
+    if (laptops[i].Quality < maxQuality)
     {
         Console.WriteLine("Happy Alex");
         return;
     }
+    maxQuality = Math.Max(maxQuality, laptops[i].Quality);
 }
 
 Console.WriteLine("Poor Alex");
