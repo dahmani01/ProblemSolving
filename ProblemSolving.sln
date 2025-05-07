@@ -78,6 +78,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laptops", "Laptops\Laptops.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeftRightHandersAmbidexters", "LeftRightHandersAmbidexters\LeftRightHandersAmbidexters.csproj", "{852DF543-3CF1-4650-8B34-CFED74275AFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeorgeAndAccommodation", "GeorgeAndAccommodation\GeorgeAndAccommodation.csproj", "{D1266BEF-12CE-42D6-9178-976DDF85DB59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -240,5 +242,9 @@ Global
 		{852DF543-3CF1-4650-8B34-CFED74275AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{852DF543-3CF1-4650-8B34-CFED74275AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{852DF543-3CF1-4650-8B34-CFED74275AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1266BEF-12CE-42D6-9178-976DDF85DB59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1266BEF-12CE-42D6-9178-976DDF85DB59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1266BEF-12CE-42D6-9178-976DDF85DB59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1266BEF-12CE-42D6-9178-976DDF85DB59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
