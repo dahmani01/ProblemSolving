@@ -80,6 +80,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeftRightHandersAmbidexters
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeorgeAndAccommodation", "GeorgeAndAccommodation\GeorgeAndAccommodation.csproj", "{D1266BEF-12CE-42D6-9178-976DDF85DB59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VitaliyAndPie", "VitaliyAndPie\VitaliyAndPie.csproj", "{442883BD-10F4-4F46-B0CF-C1A77C730C28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -246,5 +248,9 @@ Global
 		{D1266BEF-12CE-42D6-9178-976DDF85DB59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1266BEF-12CE-42D6-9178-976DDF85DB59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1266BEF-12CE-42D6-9178-976DDF85DB59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{442883BD-10F4-4F46-B0CF-C1A77C730C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442883BD-10F4-4F46-B0CF-C1A77C730C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{442883BD-10F4-4F46-B0CF-C1A77C730C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442883BD-10F4-4F46-B0CF-C1A77C730C28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
