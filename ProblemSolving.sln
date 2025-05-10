@@ -82,6 +82,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeorgeAndAccommodation", "G
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VitaliyAndPie", "VitaliyAndPie\VitaliyAndPie.csproj", "{442883BD-10F4-4F46-B0CF-C1A77C730C28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presents", "Presents\Presents.csproj", "{07C17478-AAB1-46A5-9315-38609EEF1209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinelandMail", "LinelandMail\LinelandMail.csproj", "{91081B6F-5C0F-4175-8C9E-85BB5269B8B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -252,5 +256,13 @@ Global
 		{442883BD-10F4-4F46-B0CF-C1A77C730C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{442883BD-10F4-4F46-B0CF-C1A77C730C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{442883BD-10F4-4F46-B0CF-C1A77C730C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07C17478-AAB1-46A5-9315-38609EEF1209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C17478-AAB1-46A5-9315-38609EEF1209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C17478-AAB1-46A5-9315-38609EEF1209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C17478-AAB1-46A5-9315-38609EEF1209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91081B6F-5C0F-4175-8C9E-85BB5269B8B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91081B6F-5C0F-4175-8C9E-85BB5269B8B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91081B6F-5C0F-4175-8C9E-85BB5269B8B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91081B6F-5C0F-4175-8C9E-85BB5269B8B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
