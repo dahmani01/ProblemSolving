@@ -86,6 +86,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presents", "Presents\Presen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinelandMail", "LinelandMail\LinelandMail.csproj", "{91081B6F-5C0F-4175-8C9E-85BB5269B8B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MahmoudSubsequence", "MahmoudSubsequence\MahmoudSubsequence.csproj", "{29DF5AE4-9CFA-4D3E-B428-53F615ED5EE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -264,5 +266,9 @@ Global
 		{91081B6F-5C0F-4175-8C9E-85BB5269B8B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91081B6F-5C0F-4175-8C9E-85BB5269B8B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91081B6F-5C0F-4175-8C9E-85BB5269B8B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29DF5AE4-9CFA-4D3E-B428-53F615ED5EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29DF5AE4-9CFA-4D3E-B428-53F615ED5EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29DF5AE4-9CFA-4D3E-B428-53F615ED5EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29DF5AE4-9CFA-4D3E-B428-53F615ED5EE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
