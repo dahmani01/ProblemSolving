@@ -88,6 +88,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinelandMail", "LinelandMai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MahmoudSubsequence", "MahmoudSubsequence\MahmoudSubsequence.csproj", "{29DF5AE4-9CFA-4D3E-B428-53F615ED5EE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnackTower", "SnackTower\SnackTower.csproj", "{14F9F446-2CAB-4299-B65A-38EED5539B05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -270,5 +272,9 @@ Global
 		{29DF5AE4-9CFA-4D3E-B428-53F615ED5EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29DF5AE4-9CFA-4D3E-B428-53F615ED5EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29DF5AE4-9CFA-4D3E-B428-53F615ED5EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14F9F446-2CAB-4299-B65A-38EED5539B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F9F446-2CAB-4299-B65A-38EED5539B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F9F446-2CAB-4299-B65A-38EED5539B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F9F446-2CAB-4299-B65A-38EED5539B05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
